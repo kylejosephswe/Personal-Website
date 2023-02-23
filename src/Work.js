@@ -1,26 +1,26 @@
-import laptop from './images/Laptop.png'
-import singlePhone from './images/SinglePhone.jpg'
+import boomer from './images/Boomer.gif'
+import boomer2 from './images/Boomer2.gif'
 function Work() {
   return (
     <div className="work-flex-container">
       <div className="work-image-text-row">
         <div>
-          <img width="500" height="460" src={laptop} alt='Laptop' />
+          <img className="work-img-design" width="500" height="460" src={boomer2} alt='Laptop' />
         </div>
-        <div className="work-text-column">
-          <h4>Software Engineer Intern</h4>
-          <h1>Siemens EDA</h1>
-          <p>Description</p>
+        <div className="work-text-column work-text-width-evening">
+          <h3 className="job-title">Software Engineer Intern</h3>
+          <h2 className="company-name">Siemens EDA</h2>
+          <p className="work-desc">TBD</p>
         </div>
       </div>
-      <div className="work-image-text-row extra-right-padding">
+      <div className="work-image-text-row">
         <div>
-          <img width="500" height="460" src={singlePhone} alt='Single Phone' />
+          <img className="work-img-design" width="500" height="460" src={boomer} alt='Single Phone' />
         </div>
         <div className="work-text-column">
-          <h4>Frontend Engineer</h4>
-          <h1>SunnySide</h1>
-          <p>Description</p>
+          <h3 className="job-title">Frontend Engineer</h3>
+          <h2 className="company-name">SunnySide</h2>
+          <p className="work-desc">Contributed to the SunnySide app in preparation for the official launch by implementing in-app screens, and features needed for a seamless user experience.</p>
         </div>
       </div>
     </div>
