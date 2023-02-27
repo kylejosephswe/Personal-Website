@@ -6,6 +6,10 @@
     font-family: EditorialNew;
 }
 
+::-webkit-scrollbar {
+    display: none;
+  }
+
 @font-face {
     font-family: EditorialNew;
     src: local('EditorialNew') url("./fonts/EditorialNew.otf") format("opentype");
@@ -37,14 +41,16 @@
     justify-content: space-between;
     padding-top: 20px;
     margin-bottom: 70px;
+
 }
 .nav-flex-internal {
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: center;
     justify-content: right;
     gap: 30px;
     margin-right: 40px;
+    height: 45px;
 }
 
 .nav-infinity-logo {
@@ -52,6 +58,7 @@
     height: 45px;
     width: 45px;
 }
+
 .nav-infinity-logo:hover {
   animation-name: spin;
   animation-duration: 5000ms;
@@ -69,9 +76,8 @@
 }
 
 .nav-text:hover {
-    opacity: 0.6;
-    font-size: 21px;
-    transition-delay: 75ms;
+    opacity: 0.7;
+    transition-delay: 70ms;
 }
 
 .a-link:link {
@@ -79,16 +85,16 @@
 }
 
 .nav-icon {
-    font-size: 20px;
     opacity: 1.0;
     font-family: sans-serif;
     cursor: pointer;
+    height: 16px;
+    width: 16px;
 }
 
 .nav-icon:hover {
     transition-delay: 100ms;
-    height: 17px;
-    width: 17px;
+    opacity: 0.7;
 }
 
 .intro-flex {
@@ -124,12 +130,6 @@
     border-radius: 16px;
     background-position: 50% 50%;
     background-size: cover;
-}
-
-.intro-image:hover {
-    transition-delay: 125ms;
-    transform: translate3d(0px, -5px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-    transform-style: preserve-3d;
 }
 
 .work-flex-container {
@@ -168,7 +168,8 @@
     justify-content: center;
     gap: 10px;
     font-family: EditorialNew;
-    max-width: 250px;
+    max-width: 330px;
+    width: 330px;
     text-align: left;
 }
 
@@ -191,7 +192,152 @@
     text-align: left;
 }
 
-.work-text-width-evening {
-    /* padding-left: 4rem; */
-    width: 250px;
+.projects-header {
+    text-align: center;
+    margin-bottom: 75px;
+    font-family: EditorialNew, Calibre;
+    color: #dfdfdf;
+}
+
+.project-links {
+    text-decoration: none; 
+}
+
+.contact-section {
+    width: 550px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.contact-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.contact-header {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 30px;
+    color: white;
+}
+
+label {
+    margin-bottom: 10px;
+    color: white;
+}
+
+input {
+    color: #fff;
+    border: 0;
+    background: #262626;
+    width: 500px;
+    height: 45px;
+    margin-bottom: 15px;
+    outline: none;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+.message-textarea {
+    width: 500px;
+    height: 150px;
+    color: #fff;
+    border: 0;
+    background: #262626;
+    outline: none;
+    border-radius: 6px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    resize: none;
+}
+
+input[type="email"] {
+    padding-left: 8px;
+}
+textarea[type="text"] {
+    padding-left: 8px;
+    padding-top: 10px;
+}
+
+/* CSS */
+.button-1 {
+  background-color: #D61355;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 90px;
+}
+
+.contact-succeed-message {
+    text-align: center;
+}
+
+.footer-flex-internal {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: right;
+    gap: 30px;
+    margin-right: 12em;
+    padding-bottom: 35px;
+}
+
+.footer-text {
+    color: white;
+    font-weight: lighter;
+    font-size: 15px;
+    opacity: 1.0;
+    font-family: arial;
+    cursor: pointer;
+}
+
+.footer-text:hover {
+    opacity: 0.7;
+    transition-delay: 70ms;
+}
+
+.a-link:link {
+    text-decoration: none; 
+}
+
+.footer-icon {
+    opacity: 1.0;
+    font-family: sans-serif;
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+}
+
+.footer-icon:hover {
+    transition-delay: 100ms;
+    opacity: 0.7;
+}
+
+.fallback-text {
+    text-align: center;
+    color: white;
 }
