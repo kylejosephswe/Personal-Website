@@ -3,13 +3,11 @@ import Navbar from './Navbar'
 import Work from './Work'
 
 //Local images.
-import Keshi from './images/keshiImage.jpg'
-import animeImage1 from './images/animeImage1.jpg'
-import teaImage from './images/teaImage.jpg'
-import loveImage from './images/loveImage.jpg'
-import triniImage from './images/triniImage.jpg'
-
-//Link to the projects.
+import Keshi from '.././images/keshiImage.jpg'
+import animeImage1 from '.././images/animeImage1.jpg'
+import teaImage from '.././images/teaImage.jpg'
+import loveImage from '.././images/loveImage.jpg'
+import triniImage from '.././images/triniImage.jpg'
 
 function Projects() {
   return (

@@ -1,4 +1,6 @@
+//Library imports.
 import { Link } from 'react-router-dom'
+
 function Footer() {
   let pathname = window.location.pathname
   return (

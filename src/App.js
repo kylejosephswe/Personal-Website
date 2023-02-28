@@ -1,23 +1,23 @@
-//Libraries.
+//Library Imports.
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import React, { lazy, Suspense } from 'react'
 
-//Local code files..
+//Local code imports.
 import './App.css';
-import Navbar from './Navbar'
-import Intro from './Intro'
-import Work from './Work'
-import Contact from './Contact'
-import Projects from './Projects'
-//I use lazy loading for the Footer instead of importing it here to optimize the speed of the site.
-//import Footer from './Footer' 
-import ScrollToTop from './ScrollToTop'
+import Navbar from './components/Navbar'
+import Intro from './components/Intro'
+import Work from './components/Work'
+import Contact from './components/Contact'
+import Projects from './components/Projects'
+import ScrollToTop from './components/ScrollToTop'
 
 //Local Images.
 import boomer from './images/Boomer.gif'
 import boomer2 from './images/Boomer2.gif'
 
-const Footer = lazy(() => import('./Footer'))
+//I use lazy loading the Footer instead of importing it regularly to improve performance.
+//import Footer from './Footer' 
+const Footer = lazy(() => import('./components/Footer'))
 
 function App() {
   return (
@@ -33,7 +33,7 @@ function App() {
               <Work image={boomer} altImage='oldComputer1' jobTitle='Frontend Engineer' companyName='SunnySide' workDesc='Contributed to the SunnySide app in preperation for the official launch by implementing in-app screens, and features needed for a seamless user experience' redirect='https://www.sunnyside.care/' />
               <Contact />
               <Suspense fallback={<h1 className="fallback-text">Loading...</h1>}>
-              <Footer />
+                <Footer />
               </Suspense>
             </div>
           }> </Route>
@@ -41,7 +41,7 @@ function App() {
             <div>
               <Projects />
               <Suspense fallback={<h1 className="fallback-text">Loading...</h1>}>
-              <Footer />
+                <Footer />
               </Suspense>
             </div>
           }> </Route>
