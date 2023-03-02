@@ -4,7 +4,7 @@ function Work({ image, altImage, jobTitle, companyName, workDesc, redirect }) {
       <div className="work-flex-container">
         <div className="work-image-text-row">
           <div>
-             {redirect ? <a className="project-links" href={redirect} target="_blank" rel="noreferrer" > <img className="work-img-design" width="500" height="460" src={image} alt={altImage} /> </a> : <img className="work-img-design" width="500" height="460" src={image} alt={altImage} />}
+             {redirect ? <a className="project-links" href={redirect} target="_blank" rel="noreferrer" > <img className="work-img-design" width="500" height="460" src={image} alt={altImage} /> </a> : <img className="work-img-design" src={image} alt={altImage} />}
             {/*<img className="work-img-design" width="500" height="460" src={image} alt={altImage} /> */}
           </div>
           <div className="work-text-column">

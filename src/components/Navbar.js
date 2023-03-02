@@ -1,7 +1,8 @@
 //Library imports.
 import { Link } from 'react-router-dom'
-
 function Navbar() {
+  let pathName = window.location.pathname
+
   return (
     <div className="nav-flex">
       <div>
@@ -11,10 +12,10 @@ function Navbar() {
       </div>
       <div className="nav-flex-internal">
         <Link to='/' style={{ textDecoration: 'none' }}>
-          <h4 className="nav-text">Work</h4>
+          {pathName === '/' ? <h4 style={{ textDecoration: 'underline', textUnderlineOffset: '5px' }} className="nav-text">Work</h4> : <h4 className="nav-text">Work</h4>}
         </Link>
         <Link to='/projects' style={{ textDecoration: 'none' }}>
-          <h4 className="nav-text">Projects</h4>
+          {pathName === '/projects' ? <h4 style={{ textDecoration: 'underline', textUnderlineOffset: '5px' }} className="nav-text">Projects</h4> : <h4 className="nav-text">Projects</h4>}
         </Link>
         <a className="a-link" href="https://drive.google.com/file/d/1IRvmLMtJ6YIaPvniz6yF2maYkQgjyfwl/view?usp=share_link" target="_blank" rel="noreferrer">
           <h4 className="nav-text">Resume</h4>

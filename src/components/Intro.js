@@ -3,7 +3,7 @@ function Intro() {
     <div className='intro-flex'>
       <div className="intro-text">
         <h1 className="intro-name">Kyle Joseph</h1>
-        <h1>Software Engineer</h1>
+        <h1 className="intro-career-title">Software Engineer</h1>
         <h4 className="intro-description">
           I'm a Software Engineer who cares deeply about user experience and has a serious passion for design and new technologies.
         </h4>
