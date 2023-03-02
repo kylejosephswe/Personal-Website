@@ -1,5 +1,7 @@
 /* Desktop Design */
 
+/* GLOBALS */
+
 * {
     padding: 0;
     margin: 0;
@@ -36,6 +38,8 @@
         transform: rotate(360deg);
     }
 }
+
+/* NAVBAR */
 
 .nav-flex {
     display: flex;
@@ -100,6 +104,8 @@
     opacity: 0.7;
 }
 
+/* INTRO */
+
 .intro-flex {
     display: flex;
     flex-direction: row;
@@ -135,6 +141,8 @@
     background-size: cover;
 }
 
+/* WORK */
+
 .work-flex-container {
     display: flex;
     flex-direction: column;
@@ -142,7 +150,6 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 10%;
-    /*Originally 125px. 175px might be best. */
 }
 
 .work-image-text-row {
@@ -198,6 +205,8 @@
     text-align: left;
 }
 
+/* PROJECTS */
+
 .projects-header {
     text-align: center;
     margin-bottom: 75px;
@@ -208,6 +217,8 @@
 .project-links {
     text-decoration: none;
 }
+
+/* CONTACT ME */
 
 .contact-section {
     width: 550px;
@@ -302,6 +313,8 @@ textarea[type="text"] {
 .contact-succeed-message {
     text-align: center;
 }
+
+/* FOOTER */
 
 .footer-flex-internal {
     display: flex;
