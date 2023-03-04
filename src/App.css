@@ -363,7 +363,7 @@ textarea[type="text"] {
 }
 
 /* Mobile Design */
-@media only screen and (max-width: 421px) {
+@media only screen and (max-width: 431px) {
 
     /* NAV BAR */
     .nav-flex {
@@ -424,13 +424,13 @@ textarea[type="text"] {
 
     .intro-name {
         margin-bottom: 10px;
-        font-size: 1rem;
+        line-height: 1.4rem;
+        font-size: 1.4rem;
         color: #dfdfdf;
     }
 
     .intro-career-title {
-        line-height: 1rem;
-        font-size: 1.4rem;
+        line-height: 1.6rem;
         color: #dfdfdf;
     }
 
