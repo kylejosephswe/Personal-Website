@@ -17,7 +17,7 @@ function Navbar() {
         <Link to='/projects' style={{ textDecoration: 'none' }}>
           {pathName === '/projects' ? <h4 style={{ textDecoration: 'underline', textUnderlineOffset: '5px' }} className="nav-text">Projects</h4> : <h4 className="nav-text">Projects</h4>}
         </Link>
-        <a className="a-link" href="https://drive.google.com/file/d/1IRvmLMtJ6YIaPvniz6yF2maYkQgjyfwl/view?usp=share_link" target="_blank" rel="noreferrer">
+        <a className="a-link" href="https://drive.google.com/file/d/1-UZOTK1xHYP3tiC2qSe-820NHHGEJJNl/view?usp=share_link" target="_blank" rel="noreferrer">
           <h4 className="nav-text">Resume</h4>
         </a>
         <a href="https://www.linkedin.com/in/kylejosephswe/" target="_blank" rel="noreferrer">
