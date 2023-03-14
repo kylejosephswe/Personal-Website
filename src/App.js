@@ -29,8 +29,8 @@ function App() {
             <div>
               <Navbar />
               <Intro />
-              <Work image={boomer2} altImage='oldComputer2' jobTitle='R&D Software Engineer Intern' companyName='Siemens EDA' workDesc='I will be working on the Parasytic Extraction Team as a Research and Development Software Engineer Intern' redirect='https://eda.sw.siemens.com/en-US/ic/calibre-design/circuit-verification/xact-3d/' />
-              <Work image={boomer} altImage='oldComputer1' jobTitle='Frontend Engineer' companyName='SunnySide' workDesc='Contributed to the SunnySide app in preperation for the official launch by implementing in-app screens, and features needed for a seamless user experience' redirect='https://www.sunnyside.care/' />
+              <Work image={boomer2} altImage='oldComputer2' jobTitle='R&D Software Engineer Intern' companyName='Siemens EDA' workDesc='I will be working on the Parasitic Extraction Team as a Research and Development Software Engineer Intern' redirect='https://eda.sw.siemens.com/en-US/ic/calibre-design/circuit-verification/xact-3d/' />
+              <Work image={boomer} altImage='oldComputer1' jobTitle='Frontend Engineer' companyName='SunnySide' workDesc='Contributed to the SunnySide app in preparation for the official launch by implementing in-app screens, and features needed for a seamless user experience' redirect='https://www.sunnyside.care/' />
               <Contact />
               <Suspense fallback={<h1 className="fallback-text">Loading...</h1>}>
                 <Footer />
