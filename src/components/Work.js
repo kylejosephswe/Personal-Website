@@ -1,4 +1,4 @@
-function Work({ image, altImage, jobTitle, companyName, workDesc, redirect }) {
+function Work({ image, altImage, jobTitle, companyName, workDesc, redirect}) {
   return (
     <div>
       <div className="work-flex-container">
