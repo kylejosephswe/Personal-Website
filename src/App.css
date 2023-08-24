@@ -3,178 +3,509 @@
 /* GLOBALS */
 
 * {
-    padding: 0;
-    margin: 0;
-    background-color: #1c1c1c;
-    color: white;
-    font-family: EditorialNew;
+  padding: 0;
+  margin: 0;
+  background-color: #1c1c1c;
+  color: white;
+  font-family: EditorialNew;
 }
 
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 @font-face {
-    font-family: EditorialNew;
-    src: local('EditorialNew') url("./fonts/EditorialNew.otf") format("opentype");
+  font-family: EditorialNew;
+  src: local("EditorialNew") url("./fonts/EditorialNew.otf") format("opentype");
 }
 
 @font-face {
-    font-family: CalibreLight;
-    src: local('CalibreLight') url("./fonts/CalibreLight.woff2") format('woff2');
+  font-family: CalibreLight;
+  src: local("CalibreLight") url("./fonts/CalibreLight.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: CalibreThin;
-    src: local('CalibreThin') url("./fonts/CalibreThin.woff2") format('woff2');
+  font-family: CalibreThin;
+  src: local("CalibreThin") url("./fonts/CalibreThin.woff2") format("woff2");
 }
 
 @keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
 
-    to {
-        transform: rotate(360deg);
-    }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* NAVBAR */
 
 .nav-flex {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 20px;
-    margin-bottom: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  margin-bottom: 70px;
 }
 
 .nav-flex-internal {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: right;
-    gap: 30px;
-    margin-right: 40px;
-    height: 45px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+  gap: 30px;
+  margin-right: 40px;
+  height: 45px;
 }
 
 .nav-infinity-logo {
-    margin-left: 30px;
-    height: 45px;
-    width: 45px;
+  margin-left: 30px;
+  height: 45px;
+  width: 45px;
 }
 
 .nav-infinity-logo:hover {
-    animation-name: spin;
-    animation-duration: 5000ms;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .nav-text {
-    color: white;
-    font-weight: lighter;
-    font-size: 20px;
-    opacity: 1.0;
-    font-family: arial;
-    cursor: pointer;
+  color: white;
+  font-weight: lighter;
+  font-size: 20px;
+  opacity: 1;
+  font-family: arial;
+  cursor: pointer;
 }
 
 .nav-text:hover {
-    opacity: 0.7;
-    transition-delay: 70ms;
+  opacity: 0.7;
+  transition-delay: 70ms;
 }
 
 .a-link:link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .nav-icon {
-    opacity: 1.0;
-    font-family: sans-serif;
-    cursor: pointer;
-    height: 16px;
-    width: 16px;
+  opacity: 1;
+  font-family: sans-serif;
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
 }
 
 .nav-icon:hover {
-    transition-delay: 100ms;
-    opacity: 0.7;
+  transition-delay: 100ms;
+  opacity: 0.7;
 }
 
 /* INTRO */
 
 .intro-flex {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    height: 500px;
-    margin-bottom: 125px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  height: 500px;
+  margin-bottom: 125px;
 }
 
 .intro-name {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .intro-description {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .intro-text {
-    width: 500px;
-    padding: 0px;
-    opacity: 1;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serifAI;
-    font-size: 1.225rem;
-    line-height: 1.75rem;
-    color: white;
+  width: 500px;
+  padding: 0px;
+  opacity: 1;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serifAI;
+  font-size: 1.225rem;
+  line-height: 1.75rem;
+  color: white;
 }
 
 .intro-image {
-    height: 350px;
-    border-radius: 16px;
-    background-position: 50% 50%;
-    background-size: cover;
+  height: 350px;
+  border-radius: 16px;
+  background-position: 50% 50%;
+  background-size: cover;
 }
 
 /* WORK */
 
 .work-flex-container {
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10%;
 }
 
 .work-image-text-row {
-    display: flex;
-    flex-direction: row;
-    gap: 70px;
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
 }
 
 .work-img-design {
-    flex: 1;
-    border-radius: 16px;
-    background-position: 50% 50%;
-    background-size: cover;
-    cursor: pointer;
-    width: 500px;
-    height: 460px;
+  flex: 1;
+  border-radius: 16px;
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  width: 500px;
+  height: 460px;
 }
 
 .work-img-design:hover {
-    transition-delay: 125ms;
-    transform: translate3d(0px, -5px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-    transform-style: preserve-3d;
+  transition-delay: 125ms;
+  transform: translate3d(0px, -5px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
 }
 
 .work-text-column {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  gap: 10px;
+  font-family: EditorialNew;
+  max-width: 330px;
+  width: 330px;
+  text-align: left;
+}
+
+.job-title {
+  font-size: 20px;
+  color: #d8d8d8;
+  text-align: left;
+}
+
+.company-name {
+  font-size: 30px;
+  color: #dfdfdf;
+  text-align: left;
+  font-weight: 300;
+}
+
+.company-date {
+  font-size: 24px;
+  color: #dfdfdf;
+  text-align: left;
+  font-weight: 300;
+}
+
+.work-desc {
+  font-size: 18px;
+  color: #dfdfdf;
+  text-align: left;
+}
+
+.skills {
+  font-size: 20px;
+  color: #dfdfdf;
+  text-align: left;
+}
+
+/* PROJECTS */
+
+.projects-header {
+  text-align: center;
+  margin-bottom: 75px;
+  font-family: EditorialNew, Calibre;
+  color: #dfdfdf;
+}
+
+.project-links {
+  text-decoration: none;
+}
+
+/* CONTACT ME */
+
+.contact-section {
+  width: 550px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.contact-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.contact-header {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 30px;
+  color: white;
+}
+
+label {
+  margin-bottom: 10px;
+  color: white;
+}
+
+input {
+  color: #fff;
+  border: 0;
+  background: #262626;
+  width: 500px;
+  height: 45px;
+  margin-bottom: 15px;
+  outline: none;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+.message-textarea {
+  width: 500px;
+  height: 150px;
+  color: #fff;
+  border: 0;
+  background: #262626;
+  outline: none;
+  border-radius: 6px;
+  font-size: 18px;
+  margin-bottom: 25px;
+  resize: none;
+}
+
+input[type="email"] {
+  padding-left: 8px;
+}
+
+textarea[type="text"] {
+  padding-left: 8px;
+  padding-top: 10px;
+}
+
+/* CSS */
+.button-1 {
+  background-color: #d61355;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 90px;
+}
+
+.contact-succeed-message {
+  text-align: center;
+}
+
+/* FOOTER */
+
+.footer-flex-internal {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: right;
+  gap: 30px;
+  margin-right: 12em;
+  padding-bottom: 35px;
+}
+
+.footer-text {
+  color: white;
+  font-weight: lighter;
+  font-size: 15px;
+  opacity: 1;
+  font-family: arial;
+  cursor: pointer;
+}
+
+.footer-text:hover {
+  opacity: 0.7;
+  transition-delay: 70ms;
+}
+
+.a-link:link {
+  text-decoration: none;
+}
+
+.footer-icon {
+  opacity: 1;
+  font-family: sans-serif;
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+}
+
+.footer-icon:hover {
+  transition-delay: 100ms;
+  opacity: 0.7;
+}
+
+.fallback-text {
+  text-align: center;
+  color: white;
+}
+
+/* Mobile Design */
+@media only screen and (max-width: 431px) {
+  /* NAV BAR */
+  .nav-flex {
+    padding-top: 20px;
+    margin-bottom: 20%;
+    max-width: 100%;
+  }
+
+  .nav-flex-internal {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 6.5%;
+    margin-right: 0;
+  }
+
+  .nav-infinity-logo {
+    display: None;
+  }
+
+  .nav-text {
+    color: white;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    opacity: 1;
+    font-family: arial;
+    cursor: pointer;
+  }
+
+  .a-link:link {
+    text-decoration: none;
+  }
+
+  .nav-icon {
+    opacity: 1;
+    font-family: sans-serif;
+    cursor: pointer;
+    height: 1.2rem;
+    width: 1.2rem;
+  }
+
+  /* INTRO */
+
+  .intro-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    height: 250px;
+    margin-bottom: 25%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .intro-name {
+    margin-bottom: 10px;
+    line-height: 1.4rem;
+    font-size: 1.4rem;
+    color: #dfdfdf;
+  }
+
+  .intro-career-title {
+    line-height: 1.6rem;
+    color: #dfdfdf;
+  }
+
+  .intro-description {
+    margin-top: 20px;
+    font-size: 1rem;
+    display: none;
+    color: #dfdfdf;
+  }
+
+  .intro-text {
+    width: 500px;
+    padding: 0px;
+    opacity: 1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serifAI;
+    font-size: 1rem;
+    line-height: 1.125rem;
+    color: #dfdfdf;
+  }
+
+  .intro-image {
+    height: auto;
+    width: 60%;
+    border-radius: 16px;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+
+  /* WORK */
+
+  .work-flex-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .work-image-text-row {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    /*gap: 40px;*/
+    gap: 10%;
+  }
+
+  .work-img-design {
+    flex: 1;
+    border-radius: 6.4px;
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 200px;
+    height: 184px;
+  }
+
+  .work-text-column {
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -184,83 +515,75 @@
     max-width: 330px;
     width: 330px;
     text-align: left;
-}
+  }
 
-.job-title {
-    font-size: 20px;
+  .job-title {
+    /* font-size: 20px; */
+    font-size: 1.15rem;
     color: #d8d8d8;
     text-align: left;
-}
+  }
 
-.company-name {
-    font-size: 30px;
+  .company-name {
+    /* font-size: 30px; */
+    font-size: 1.3rem;
     color: #dfdfdf;
     text-align: left;
     font-weight: 300;
-}
+  }
 
-.work-desc {
+  .work-desc {
     font-size: 18px;
     color: #dfdfdf;
     text-align: left;
-}
+    display: none;
+  }
 
-/* PROJECTS */
+  /* CONTACT */
 
-.projects-header {
-    text-align: center;
-    margin-bottom: 75px;
-    font-family: EditorialNew, Calibre;
-    color: #dfdfdf;
-}
-
-.project-links {
-    text-decoration: none;
-}
-
-/* CONTACT ME */
-
-.contact-section {
+  .contact-section {
     width: 550px;
     margin: auto;
     width: 50%;
     padding: 10px;
-}
+  }
 
-.contact-flex {
+  .contact-flex {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 70px;
-}
+    max-width: 100%;
+  }
 
-.contact-header {
+  .contact-header {
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     margin-bottom: 30px;
     color: white;
-}
+    width: 100%;
+  }
 
-label {
+  label {
     margin-bottom: 10px;
     color: white;
-}
+  }
 
-input {
+  input {
     color: #fff;
     border: 0;
     background: #262626;
-    width: 500px;
+    width: 150%;
     height: 45px;
     margin-bottom: 15px;
     outline: none;
     border-radius: 6px;
     font-size: 18px;
-}
+  }
 
-.message-textarea {
-    width: 500px;
+  .message-textarea {
+    width: 150%;
     height: 150px;
     color: #fff;
     border: 0;
@@ -270,361 +593,53 @@ input {
     font-size: 18px;
     margin-bottom: 25px;
     resize: none;
-}
+  }
 
-input[type="email"] {
+  input[type="email"] {
     padding-left: 8px;
-}
+  }
 
-textarea[type="text"] {
+  textarea[type="text"] {
     padding-left: 8px;
     padding-top: 10px;
-}
+  }
 
-/* CSS */
-.button-1 {
-    background-color: #D61355;
-    border-radius: 8px;
-    border-style: none;
-    box-sizing: border-box;
-    color: #FFFFFF;
-    cursor: pointer;
-    display: inline-block;
-    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    height: 40px;
-    line-height: 20px;
-    list-style: none;
-    margin: 0;
-    outline: none;
-    padding: 10px 16px;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    transition: color 100ms;
-    vertical-align: baseline;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    width: 90px;
-}
+  /* FOOTER */
 
-.contact-succeed-message {
-    text-align: center;
-}
-
-/* FOOTER */
-
-.footer-flex-internal {
+  .footer-flex-internal {
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
-    justify-content: right;
+    align-items: center;
+    justify-content: center;
     gap: 30px;
-    margin-right: 12em;
     padding-bottom: 35px;
-}
+    margin-right: 0;
+    display: none;
+  }
 
-.footer-text {
+  .footer-text {
     color: white;
     font-weight: lighter;
     font-size: 15px;
-    opacity: 1.0;
+    opacity: 1;
     font-family: arial;
     cursor: pointer;
-}
+  }
 
-.footer-text:hover {
-    opacity: 0.7;
-    transition-delay: 70ms;
-}
-
-.a-link:link {
+  .a-link:link {
     text-decoration: none;
-}
+  }
 
-.footer-icon {
-    opacity: 1.0;
+  .footer-icon {
+    opacity: 1;
     font-family: sans-serif;
     cursor: pointer;
     height: 13px;
     width: 13px;
-}
+  }
 
-.footer-icon:hover {
-    transition-delay: 100ms;
-    opacity: 0.7;
-}
-
-.fallback-text {
+  .fallback-text {
     text-align: center;
     color: white;
-}
-
-/* Mobile Design */
-@media only screen and (max-width: 431px) {
-
-    /* NAV BAR */
-    .nav-flex {
-        padding-top: 20px;
-        margin-bottom: 20%;
-        max-width: 100%;
-    }
-
-    .nav-flex-internal {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 6.5%;
-        margin-right: 0;
-    }
-
-    .nav-infinity-logo {
-        display: None;
-    }
-
-    .nav-text {
-        color: white;
-        font-weight: lighter;
-        font-size: 1.2rem;
-        opacity: 1.0;
-        font-family: arial;
-        cursor: pointer;
-    }
-
-    .a-link:link {
-        text-decoration: none;
-    }
-
-    .nav-icon {
-        opacity: 1.0;
-        font-family: sans-serif;
-        cursor: pointer;
-        height: 1.2rem;
-        width: 1.2rem;
-    }
-
-    /* INTRO */
-
-    .intro-flex {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 25px;
-        height: 250px;
-        margin-bottom: 25%;
-        margin-left: 10%;
-        margin-right: 10%;
-
-    }
-
-    .intro-name {
-        margin-bottom: 10px;
-        line-height: 1.4rem;
-        font-size: 1.4rem;
-        color: #dfdfdf;
-    }
-
-    .intro-career-title {
-        line-height: 1.6rem;
-        color: #dfdfdf;
-    }
-
-    .intro-description {
-        margin-top: 20px;
-        font-size: 1rem;
-        display: none;
-        color: #dfdfdf;
-    }
-
-    .intro-text {
-        width: 500px;
-        padding: 0px;
-        opacity: 1;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serifAI;
-        font-size: 1rem;
-        line-height: 1.125rem;
-        color: #dfdfdf;
-    }
-
-    .intro-image {
-        height: auto;
-        width: 60%;
-        border-radius: 16px;
-        background-position: 50% 50%;
-        background-size: cover;
-    }
-
-    /* WORK */
-
-    .work-flex-container {
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 30%;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-
-    .work-image-text-row {
-        max-width: 100%;
-        display: flex;
-        flex-direction: row;
-        /*gap: 40px;*/
-        gap: 10%;
-    }
-
-    .work-img-design {
-        flex: 1;
-        border-radius: 6.4px;
-        background-position: 50% 50%;
-        background-size: cover;
-        width: 200px;
-        height: 184px;
-    }
-
-    .work-text-column {
-        display: flex;
-        flex-direction: column;
-        align-items: left;
-        justify-content: center;
-        gap: 10px;
-        font-family: EditorialNew;
-        max-width: 330px;
-        width: 330px;
-        text-align: left;
-    }
-
-    .job-title {
-        /* font-size: 20px; */
-        font-size: 1.15rem;
-        color: #d8d8d8;
-        text-align: left;
-    }
-
-    .company-name {
-        /* font-size: 30px; */
-        font-size: 1.3rem; 
-        color: #dfdfdf;
-        text-align: left;
-        font-weight: 300;
-    }
-
-    .work-desc {
-        font-size: 18px;
-        color: #dfdfdf;
-        text-align: left;
-        display: none;
-    }
-
-    /* CONTACT */
-
-    .contact-section {
-        width: 550px;
-        margin: auto;
-        width: 50%;
-        padding: 10px;
-    }
-
-    .contact-flex {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 70px;
-        max-width: 100%;
-    }
-
-    .contact-header {
-        text-align: center;
-        font-size: 2em;
-        margin-bottom: 30px;
-        color: white;
-        width: 100%;
-    }
-
-    label {
-        margin-bottom: 10px;
-        color: white;
-    }
-
-    input {
-        color: #fff;
-        border: 0;
-        background: #262626;
-        width: 150%;
-        height: 45px;
-        margin-bottom: 15px;
-        outline: none;
-        border-radius: 6px;
-        font-size: 18px;
-    }
-
-    .message-textarea {
-        width: 150%;
-        height: 150px;
-        color: #fff;
-        border: 0;
-        background: #262626;
-        outline: none;
-        border-radius: 6px;
-        font-size: 18px;
-        margin-bottom: 25px;
-        resize: none;
-    }
-
-    input[type="email"] {
-        padding-left: 8px;
-    }
-
-    textarea[type="text"] {
-        padding-left: 8px;
-        padding-top: 10px;
-    }
-
-    /* FOOTER */
-
-    .footer-flex-internal {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 30px;
-        padding-bottom: 35px;
-        margin-right: 0;
-        display: none;
-    }
-
-    .footer-text {
-        color: white;
-        font-weight: lighter;
-        font-size: 15px;
-        opacity: 1.0;
-        font-family: arial;
-        cursor: pointer;
-    }
-
-    .a-link:link {
-        text-decoration: none;
-    }
-
-    .footer-icon {
-        opacity: 1.0;
-        font-family: sans-serif;
-        cursor: pointer;
-        height: 13px;
-        width: 13px;
-    }
-
-    .fallback-text {
-        text-align: center;
-        color: white;
-    }
-
+  }
 }
