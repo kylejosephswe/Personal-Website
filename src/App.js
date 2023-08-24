@@ -37,7 +37,7 @@ function App() {
                   altImage="oldComputer2"
                   jobTitle="Software Engineer Intern"
                   companyName="Siemens EDA"
-                  workDesc="I worked on the Parasitic Extraction Team as a Software Engineer Intern"
+                  workDesc="I worked on the Parasitic Extraction (PEX) Team as a Software Engineer Intern to make a major accuracy analyzer project for xRC over the span of 6 months"
                   redirect="https://eda.sw.siemens.com/en-US/ic/calibre-design/circuit-verification/xact-3d/"
                 />
                 <Work
