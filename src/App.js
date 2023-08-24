@@ -35,9 +35,9 @@ function App() {
                 <Work
                   image={boomer2}
                   altImage="oldComputer2"
-                  jobTitle="R&D Software Engineer Intern"
+                  jobTitle="Software Engineer Intern"
                   companyName="Siemens EDA"
-                  workDesc="I worked on the Parasitic Extraction Team as a Research and Development Software Engineer Intern"
+                  workDesc="I worked on the Parasitic Extraction Team as a Software Engineer Intern"
                   redirect="https://eda.sw.siemens.com/en-US/ic/calibre-design/circuit-verification/xact-3d/"
                 />
                 <Work
