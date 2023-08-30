@@ -61,7 +61,7 @@
 }
 
 .nav-infinity-logo {
-  margin-left: 30px;
+  margin-left: 32px;
   height: 45px;
   width: 45px;
 }
@@ -641,5 +641,13 @@ textarea[type="text"] {
   .fallback-text {
     text-align: center;
     color: white;
+  }
+
+  .company-date {
+    display: none;
+  }
+
+  .skills {
+    display: none;
   }
 }
