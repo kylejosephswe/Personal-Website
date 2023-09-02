@@ -40,7 +40,7 @@ function App() {
                   jobTitle="Software Engineer Intern"
                   companyName="Siemens EDA"
                   companyDate="Apr 2023 to Sep 2023"
-                  workDesc="I worked on the Parasitic Extraction (PEX) Team as a Software Engineer Intern to make a major accuracy analyzer project for xACT3D over the span of 6 months"
+                  workDesc="I worked on the Parasitic Extraction (PEX) Team as a Software Engineer Intern to make a major accuracy analyzer project for xACT 3D over the span of 6 months"
                   skills="Python, Bash, C++, Linux, Git, Jira"
                   redirect="https://eda.sw.siemens.com/en-US/ic/calibre-design/circuit-verification/xact-3d/"
                 />
