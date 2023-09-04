@@ -47,7 +47,7 @@ function App() {
                 <Work
                   image={boomer}
                   altImage="oldComputer1"
-                  jobTitle="Frontend Engineer"
+                  jobTitle="Software Engineer"
                   companyName="SunnySide"
                   companyDate="Jan 2023 to Apr 2023"
                   workDesc="Contributed to the SunnySide app in preparation for the official launch by implementing in-app screens, and features needed for a seamless user experience"
