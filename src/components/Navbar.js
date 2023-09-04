@@ -57,7 +57,7 @@ function Navbar() {
         </Link>
         <a
           className="a-link"
-          href="https://drive.google.com/file/d/1cO3kOsanqBujcmLQxINcfNvMpU4nvzTr/view?usp=sharing"
+          href="https://drive.google.com/file/d/1BUInewApn5MC8dWxyDpueSQViW4BuIRl/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
