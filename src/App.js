@@ -49,7 +49,7 @@ function App() {
                   altImage="oldComputer1"
                   jobTitle="Software Engineer"
                   companyName="SunnySide"
-                  companyDate="Jan 2023 to Apr 2023"
+                  companyDate="Jan 2023 to Jul 2023"
                   workDesc="Contributed to the SunnySide app in preparation for the official launch by implementing in-app screens, and features needed for a seamless user experience"
                   skills="JavaScript, TypeScript, React, React Native, CSS, Git"
                   redirect="https://www.sunnyside.care/"
