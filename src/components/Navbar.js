@@ -55,13 +55,15 @@ function Navbar() {
             <h4 className="nav-text">Projects</h4>
           )}
         </Link>
+        {/*I hid the resume below here. If I want to add it back just remove the display 'none's I wrote below. */}
         <a
+        style={{display: 'none'}}
           className="a-link"
           href="https://drive.google.com/file/d/1vYNOzfJ4PcqiYIzdsFcljqFxSdUTtbfd/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
-          <h4 className="nav-text">Resume</h4>
+          <h4 style={{display: 'none'}} className="nav-text">Resume</h4>
         </a>
         <a
           href="https://www.linkedin.com/in/kylejosephswe/"
