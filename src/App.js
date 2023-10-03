@@ -41,7 +41,7 @@ function App() {
                   companyName="Siemens EDA"
                   companyDate="Apr 2023 to Sep 2023"
                   workDesc="I worked on the Parasitic Extraction (PEX) Team as a Software Engineer Intern to make a major accuracy analyzer project for xACT 3D over the span of 6 months"
-                  skills="Python, Bash, C++, Linux, Git, Jira"
+                  skills="Python, Bash, C++, Linux, Git, Jira, Agile, MS Office"
                   redirect="https://eda.sw.siemens.com/en-US/ic/calibre-design/circuit-verification/xact-3d/"
                 />
                 <Work
@@ -51,7 +51,7 @@ function App() {
                   companyName="SunnySide"
                   companyDate="Jan 2023 to Jul 2023"
                   workDesc="Contributed to the SunnySide app in preparation for the official launch by implementing in-app screens, and features needed for a seamless user experience"
-                  skills="JavaScript, TypeScript, React, React Native, CSS, Git"
+                  skills="JavaScript, TypeScript, React, React Native, CSS, Git, Android Studio"
                   redirect="https://www.sunnyside.care/"
                 />
                 <Work
