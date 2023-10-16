@@ -37,17 +37,17 @@ function App() {
                 <Intro />
                 <Work
                   image={cdPlayerGif}
-                  altImage="oldComputer2"
+                  altImage="Gif of a CD player"
                   jobTitle="Founder & Lead Software Engineer"
                   companyName="Meloverna"
                   companyDate="Oct 2023 to Present"
                   workDesc="Pioneered the concept of Meloverna and built it from the ground up as the lead software engineer"
-                  skills="Django, PostgreSQL, REST APIs, JavaScript, Python, React.js, CSS, Git"
+                  skills="SQL, Flutter, Dart, Python, Django, JavaScript, React.js, Jest, CSS, Git"
                   redirect=""
                 />
                 <Work
                   image={oldComputer2Gif}
-                  altImage="oldComputer2"
+                  altImage="gif of the second old computer"
                   jobTitle="Software Engineer Intern"
                   companyName="Siemens EDA"
                   companyDate="Apr 2023 to Sep 2023"
@@ -57,7 +57,7 @@ function App() {
                 />
                 <Work
                   image={oldComputer1Gif}
-                  altImage="oldComputer1"
+                  altImage="gif of the first old computer"
                   jobTitle="Frontend Engineer"
                   companyName="SunnySide"
                   companyDate="Jan 2023 to Jul 2023"
@@ -67,7 +67,7 @@ function App() {
                 />
                 <Work
                   image={oldComputer3Gif}
-                  altImage="Old computer 3"
+                  altImage="gif of the third old computer"
                   jobTitle="IT Consultant"
                   companyName="PSU Office of Academic Innovation"
                   companyDate="Oct 2021 to Jan 2023"
@@ -77,7 +77,7 @@ function App() {
                 />
                 <Work
                   image={objectSpinningGif}
-                  altImage="Object Spinning"
+                  altImage="Gif of object spinning"
                   jobTitle="Computer Science Major"
                   companyName="Portland State University"
                   companyDate="Sep 2019 to Dec 2024"
