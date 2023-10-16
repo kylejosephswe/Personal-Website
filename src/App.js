@@ -12,10 +12,11 @@ import Projects from "./components/Projects";
 import ScrollToTop from "./components/ScrollToTop";
 
 //Local Images.
-import boomer from "./images/Boomer.gif";
-import boomer2 from "./images/Boomer2.gif";
-import boomer3 from "./images/Boomer3.gif";
-import boomer4 from "./images/Boomer4.gif";
+import oldComputer1Gif from "./images/oldComputer1Gif.gif";
+import oldComputer2Gif from "./images/oldComputer2Gif.gif";
+import oldComputer3Gif from "./images/oldComputer3Gif.gif";
+import objectSpinningGif from "./images/objectSpinningGif.gif";
+import cdPlayerGif from "./images/cdPlayerGif.gif";
 
 //I use lazy loading the Footer instead of importing it regularly to improve performance.
 //import Footer from './Footer'
@@ -35,7 +36,17 @@ function App() {
                 <Navbar />
                 <Intro />
                 <Work
-                  image={boomer2}
+                  image={cdPlayerGif}
+                  altImage="oldComputer2"
+                  jobTitle="Founder & Lead Software Engineer"
+                  companyName="Meloverna"
+                  companyDate="Oct 2023 to Present"
+                  workDesc="Pioneered the concept of Meloverna and built it from the ground up as the lead software engineer"
+                  skills="Django, PostgreSQL, REST APIs, JavaScript, Python, React.js, CSS, Git"
+                  redirect=""
+                />
+                <Work
+                  image={oldComputer2Gif}
                   altImage="oldComputer2"
                   jobTitle="Software Engineer Intern"
                   companyName="Siemens EDA"
@@ -45,7 +56,7 @@ function App() {
                   redirect="https://eda.sw.siemens.com/en-US/ic/calibre-design/circuit-verification/xact-3d/"
                 />
                 <Work
-                  image={boomer}
+                  image={oldComputer1Gif}
                   altImage="oldComputer1"
                   jobTitle="Frontend Engineer"
                   companyName="SunnySide"
@@ -55,8 +66,8 @@ function App() {
                   redirect="https://www.sunnyside.care/"
                 />
                 <Work
-                  image={boomer3}
-                  altImage="Old computer"
+                  image={oldComputer3Gif}
+                  altImage="Old computer 3"
                   jobTitle="IT Consultant"
                   companyName="PSU Office of Academic Innovation"
                   companyDate="Oct 2021 to Jan 2023"
@@ -65,7 +76,7 @@ function App() {
                   redirect="https://www.pdx.edu/academic-innovation/"
                 />
                 <Work
-                  image={boomer4}
+                  image={objectSpinningGif}
                   altImage="Object Spinning"
                   jobTitle="Computer Science Major"
                   companyName="Portland State University"
