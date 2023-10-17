@@ -42,7 +42,7 @@ function App() {
                   companyName="Meloverna"
                   companyDate="Oct 2023 to Present"
                   workDesc="Pioneered the concept of Meloverna and built it from the ground up as the lead software engineer"
-                  skills="SQL, Flutter, Dart, Python, Django, JavaScript, React.js, Jest, CSS, Git"
+                  skills="SQL, Flutter, Dart, Python, Flask, JavaScript, React.js, Jest, CSS, Git"
                   redirect=""
                 />
                 <Work
