@@ -16,7 +16,7 @@ import oldComputer1Gif from "./images/oldComputer1Gif.gif";
 import oldComputer2Gif from "./images/oldComputer2Gif.gif";
 import oldComputer3Gif from "./images/oldComputer3Gif.gif";
 import objectSpinningGif from "./images/objectSpinningGif.gif";
-import cdPlayerGif from "./images/cdPlayerGif.gif";
+/*import cdPlayerGif from "./images/cdPlayerGif.gif";*/
 
 //I use lazy loading the Footer instead of importing it regularly to improve performance.
 //import Footer from './Footer'
@@ -35,16 +35,6 @@ function App() {
               <div>
                 <Navbar />
                 <Intro />
-                <Work
-                  image={cdPlayerGif}
-                  altImage="Gif of a CD player"
-                  jobTitle="Founder & Lead Software Engineer"
-                  companyName="Meloverna"
-                  companyDate="Oct 2023 to Present"
-                  workDesc="Pioneered the concept of Meloverna and built it from the ground up as the lead software engineer"
-                  skills="SQL, Kotlin, Python, Flask, JavaScript, React.js, Jest, JUnit, CSS, Git"
-                  redirect=""
-                />
                 <Work
                   image={oldComputer2Gif}
                   altImage="gif of the second old computer"
