@@ -7,6 +7,7 @@ import Keshi from '.././images/keshiImage.jpg'
 import NikeLogo from '.././images/Nike3.webp'
 import animeImage from '.././images/animeImage1.jpg'
 import pokemon from '.././images/pokemon.jpg'
+//import MelovernaLogo from '.././images/melovernaLogo.png'
 
 function Projects() {
   return (
