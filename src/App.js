@@ -41,7 +41,8 @@ function App() {
                   jobTitle="Software Engineer Intern"
                   companyName="Siemens EDA"
                   companyDate="Apr 2023 to Sep 2023"
-                  workDesc="I worked on the Parasitic Extraction (PEX) Team as a Software Engineer intern to make a major accuracy analyzer project for Siemens Calibre xRC over the span of 6 months"
+                  workDesc="Led a major software engineering project to automate the accuracy analysis of Siemens’ IC verification software by
+                  leveraging Python, Bash, and Linux, reducing accuracy analysis time from 1 whole day to less than 30 minutes"
                   skills="Python, Bash, C++, Linux, Git, Jira, Agile, MS Office"
                   redirect="https://eda.sw.siemens.com/en-US/ic/calibre-design/circuit-verification/xact-3d/"
                 />
@@ -51,7 +52,8 @@ function App() {
                   jobTitle="Frontend Engineer"
                   companyName="SunnySide"
                   companyDate="Jan 2023 to Jul 2023"
-                  workDesc="Contributed to the SunnySide app in preparation for the official launch by implementing in-app screens, and features needed for a seamless user experience"
+                  workDesc="Played a pivotal role in the successful launch of the SunnySide app by collaborating with the design team and lead
+                  engineer before completing tickets for both the front-end and back-end on a biweekly basis"
                   skills="JavaScript, TypeScript, React, React Native, CSS, Git, Android Studio"
                   redirect="https://www.sunnyside.care/"
                 />
