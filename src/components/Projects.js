@@ -28,7 +28,7 @@ function Projects() {
         altImage="Nike Sneaker Gallery"
         jobTitle="Personal Project"
         companyName="Nike Sneaker Gallery"
-        workDesc="Nike Sneaker Gallery is an E-commerce sneaker website I developed with the intention of improving my design skills"
+        workDesc="Nike Sneaker Gallery is an e-commerce sneaker website I developed with the intention of improving my design skills"
         skills="TypeScript, React, Router, Context API, Firebase, CSS"
         redirect="https://sneaker-gallery.web.app/"
       />
@@ -37,7 +37,7 @@ function Projects() {
         altImage="Pokedex"
         jobTitle="Personal Project"
         companyName="National Pokédex"
-        workDesc="Displays the National Pokédex with the intention of gaining REST API experience and displaying the data in a meaningful way"
+        workDesc="The National Pokédex was made with the intention of gaining experience using the REST API and learning to display that API data in a meaningful way"
         skills="React, JavaScript, PokéAPI, Context API, Firebase, CSS"
         redirect="https://national-pokedex.web.app/"
       />
