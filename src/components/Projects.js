@@ -20,7 +20,7 @@ function Projects() {
         jobTitle="Personal Project"
         companyName="Meloverna (Prototype)"
         workDesc="Meloverna is a platform for learning language through music"
-        skills="SQL, Python, Flask, JavaScript, React.js, Jest, CSS, Git"
+        skills="SQL, Python, Flask, JavaScript, React, Jest, CSS, Git"
         redirect="https://meloverna-d69d4.web.app/"
       />
       <Work
