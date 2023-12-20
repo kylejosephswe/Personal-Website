@@ -18,9 +18,9 @@ function Projects() {
         image={animeImage}
         altImage="Meloverna"
         jobTitle="Personal Project"
-        companyName="Meloverna"
+        companyName="Meloverna (Prototype)"
         workDesc="Meloverna is a platform for learning language through music"
-        skills="SQL, Kotlin, Python, Flask, JavaScript, React.js, Jest, JUnit, CSS, Git"
+        skills="SQL, Python, Flask, JavaScript, React.js, Jest, CSS, Git"
         redirect="https://meloverna-d69d4.web.app/"
       />
       <Work
@@ -29,7 +29,7 @@ function Projects() {
         jobTitle="Personal Project"
         companyName="Nike Sneaker Gallery"
         workDesc="Nike Sneaker Gallery is an e-commerce sneaker website I developed with the intention of improving my design skills"
-        skills="TypeScript, React, Router, Context API, Firebase, CSS"
+        skills="TypeScript, React, Router, Context API, Firebase, CSS, Git"
         redirect="https://sneaker-gallery.web.app/"
       />
       <Work
@@ -38,7 +38,7 @@ function Projects() {
         jobTitle="Personal Project"
         companyName="National Pokédex"
         workDesc="The National Pokédex was made with the intention of gaining experience using the REST API and learning to display that API data in a meaningful way"
-        skills="React, JavaScript, PokéAPI, Context API, Firebase, CSS"
+        skills="React, JavaScript, PokéAPI, Context API, Firebase, CSS, Git"
         redirect="https://national-pokedex.web.app/"
       />
       <Work
@@ -47,7 +47,7 @@ function Projects() {
         jobTitle="Personal Project"
         companyName="Artist Music Bracket"
         workDesc="Artist Music Bracket is a game I developed where you can choose a singer and find your favorite song by them through eliminating songs until you find your favorite"
-        skills="React, JavaScript, React Router, Firebase, CSS"
+        skills="React, JavaScript, React Router, Firebase, CSS, Git"
         redirect="https://keshi-music-bracket.web.app/"
       />
     </div>
