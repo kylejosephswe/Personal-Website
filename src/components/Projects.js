@@ -14,6 +14,7 @@ function Projects() {
     <div>
       <Navbar />
       <h1 className="projects-header">Projects</h1>
+      {/*
       <Work
         image={animeImage}
         altImage="Meloverna"
@@ -23,6 +24,7 @@ function Projects() {
         skills="SQL, Python, Flask, JavaScript, React, Jest, CSS, Git"
         redirect="https://meloverna-d69d4.web.app/"
       />
+      */}
       <Work
         image={NikeLogo}
         altImage="Nike Sneaker Gallery"
