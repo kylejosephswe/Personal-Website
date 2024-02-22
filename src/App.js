@@ -72,8 +72,8 @@ function App() {
                   altImage="Gif of object spinning"
                   jobTitle="Computer Science Major"
                   companyName="Portland State University"
-                  companyDate="Sep 2019 to Dec 2024"
-                  workDesc="Concentration in Software Engineering"
+                  /*companyDate="Sep 2019 to Dec 2024"*/
+                  /*workDesc="Concentration in Software Engineering"*/
                   skills="Web Development, Operating Systems, Systems Programming, Data Structures & Algorithms, Software Engineering"
                   redirect="https://www.pdx.edu/"
                 />
