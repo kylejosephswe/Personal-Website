@@ -41,8 +41,7 @@ function App() {
                   jobTitle="Software Engineer Intern"
                   companyName="Siemens EDA"
                   companyDate="Apr 2023 to Sep 2023"
-                  workDesc="Led a major software engineering project to automate the accuracy analysis of Siemens’ IC verification software by
-                  leveraging Python, Bash, and Linux, reducing accuracy analysis time from 1 whole day to less than 30 minutes"
+                  workDesc="Siemens Calibre R&D Team"
                   skills="Python, Bash, C++, Linux, Git, Jira, Agile, MS Office"
                   redirect="https://eda.sw.siemens.com/en-US/ic/calibre-design/circuit-verification/xact-3d/"
                 />
@@ -52,8 +51,7 @@ function App() {
                   jobTitle="Frontend Engineer"
                   companyName="SunnySide"
                   companyDate="Jan 2023 to Jul 2023"
-                  workDesc="Played a pivotal role in the successful launch of the SunnySide app by collaborating with the design team and lead
-                  engineer before completing tickets for both the front-end and back-end on a biweekly basis"
+                  workDesc="SunnySide App Development Team"
                   skills="JavaScript, TypeScript, React, React Native, CSS, Git, Android Studio"
                   redirect="https://www.sunnyside.care/"
                 />
@@ -63,7 +61,7 @@ function App() {
                   jobTitle="IT Consultant"
                   companyName="PSU Office of Academic Innovation"
                   companyDate="Oct 2021 to Jan 2023"
-                  workDesc="Worked on migrating my university's course content from the D2L learning space to the Canvas platform"
+                  workDesc="Canvas Migration Team"
                   skills="Salesforce, Notion, Html, CSS"
                   redirect="https://www.pdx.edu/academic-innovation/"
                 />
@@ -72,7 +70,7 @@ function App() {
                   altImage="Gif of object spinning"
                   jobTitle="Computer Science Major"
                   companyName="Portland State University"
-                  /*companyDate="Sep 2019 to Dec 2024"*/
+                  companyDate="Expected March 2025"
                   /*workDesc="Concentration in Software Engineering"*/
                   skills="Web Development, Operating Systems, Systems Programming, Data Structures & Algorithms, Software Engineering"
                   redirect="https://www.pdx.edu/"
