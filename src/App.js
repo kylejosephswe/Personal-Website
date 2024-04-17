@@ -15,6 +15,8 @@ import ScrollToTop from "./components/ScrollToTop";
 import oldComputer1Gif from "./images/oldComputer1Gif.gif";
 import oldComputer2Gif from "./images/oldComputer2Gif.gif";
 import oldComputer3Gif from "./images/oldComputer3Gif.gif";
+import oldComputer4Gif from "./images/oldComputer4Gif.gif";
+import oldComputer5Gif from "./images/oldComputer5Gif.gif";
 import objectSpinningGif from "./images/objectSpinningGif.gif";
 import cdPlayerGif from "./images/cdPlayerGif.gif";
 
@@ -36,13 +38,23 @@ function App() {
                 <Navbar />
                 <Intro />
                 <Work
+                  image={oldComputer4Gif}
+                  altImage="gif of old computer 4"
+                  jobTitle="Software Engineer intern"
+                  companyName="Siemens"
+                  companyDate="May 2024 to August 2024"
+                  workDesc="Team TBD"
+                  skills="Skills TBD"
+                  redirect="https://www.siemens.com/global/en/products/energy/grid-software.html#"
+                />
+                <Work
                   image={cdPlayerGif}
                   altImage="gif of the cd player"
                   jobTitle="Software Engineer"
                   companyName="Lang2Views"
-                  companyDate="Jan 2024 to Present"
+                  companyDate="Jan 2024 to May 2024"
                   workDesc="Frontend Developer Team"
-                  skills="React, JavaScript, Jest, Bootstrap, CSS"
+                  skills="React, JavaScript, Jest, Bootstrap, CSS, Jira"
                   redirect="https://www.lang2views.com/"
                 />
                 <Work
