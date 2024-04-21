@@ -44,7 +44,7 @@ function App() {
                   companyName="Siemens"
                   companyDate="May 2024 to August 2024"
                   workDesc="Team TBD"
-                  skills="Skills TBD"
+                  /*skills="Skills TBD"*/
                   redirect="https://www.siemens.com/global/en/products/energy/grid-software.html#"
                 />
                 <Work
