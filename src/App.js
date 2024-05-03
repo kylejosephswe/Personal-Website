@@ -40,7 +40,7 @@ function App() {
                 <Work
                   image={oldComputer4Gif}
                   altImage="gif of old computer 4"
-                  jobTitle="Software Engineer intern"
+                  jobTitle="Software Engineer Intern"
                   companyName="Siemens"
                   companyDate="May 2024 to August 2024"
                   workDesc="Team TBD"

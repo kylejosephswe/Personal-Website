@@ -7,6 +7,8 @@ import Keshi from ".././images/keshiImage.jpg";
 import NikeLogo from ".././images/Nike3.webp";
 import animeImage from ".././images/animeImage1.jpg";
 import pokemon from ".././images/pokemon.jpg";
+//import googleImage5 from ".././images/GoogleImage.svg";
+import googleImage6 from ".././images/googleImage.svg";
 //import MelovernaLogo from '.././images/melovernaLogo.png'
 
 function Projects() {
@@ -25,6 +27,15 @@ function Projects() {
         redirect="https://meloverna-d69d4.web.app/"
       />
       */}
+      <Work
+        image={googleImage6}
+        altImage="Google AI Hackathon"
+        jobTitle="Personal Project"
+        companyName="Google AI Hackathon 2024 Gemini Docs"
+        workDesc="Featuring our AI chatbot, students have 24/7 access to a virtual assistant that will help provide answers to any questions they may have about their applications using Gemini Docs! We provide information, reminders, and a step-by-step guide on how to apply for college, FAFSA, and obtaining a Visa."
+        skills="NextJS, TypeScript, Python, MongoDB, FastAPI, Gemini API, CSS"
+        redirect="https://www.youtube.com/watch?v=7GioaAbDExk"
+      />
       <Work
         image={NikeLogo}
         altImage="Nike Sneaker Gallery"
