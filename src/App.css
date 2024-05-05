@@ -113,7 +113,6 @@
   justify-content: center;
   gap: 50px;
   height: 500px;
-  margin-bottom: 125px;
 }
 
 .intro-name {
@@ -141,6 +140,23 @@
   background-position: 50% 50%;
   background-size: cover;
 }
+
+.about-me-description-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 18%;
+  margin-right: 18%;
+  margin-bottom: 75px;
+}
+
+.about-me-description-wording {
+  font-size: 1.225rem;
+  line-height: 1.75rem;  
+  align-self: left;
+}
+
+
 
 /* WORK */
 

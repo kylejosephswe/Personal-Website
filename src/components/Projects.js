@@ -14,7 +14,6 @@ import googleImage6 from ".././images/googleImage.svg";
 function Projects() {
   return (
     <div>
-      <Navbar />
       <h1 className="projects-header">Projects</h1>
       {/*
       <Work

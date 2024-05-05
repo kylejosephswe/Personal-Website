@@ -34,10 +34,25 @@ function Navbar() {
               }}
               className="nav-text"
             >
-              Work
+              About
             </h4>
           ) : (
-            <h4 className="nav-text">Work</h4>
+            <h4 className="nav-text">About</h4>
+          )}
+        </Link>
+        <Link to="/experience" style={{ textDecoration: "none" }}>
+          {pathName === "/experience" ? (
+            <h4
+              style={{
+                textDecoration: "underline",
+                textUnderlineOffset: "5px",
+              }}
+              className="nav-text"
+            >
+              Experience
+            </h4>
+          ) : (
+            <h4 className="nav-text">Experience</h4>
           )}
         </Link>
         <Link to="/projects" style={{ textDecoration: "none" }}>
@@ -57,13 +72,15 @@ function Navbar() {
         </Link>
         {/*I hid the resume below here. If I want to add it back just remove the display 'none's I wrote below. */}
         <a
-        style={{display: 'none'}}
+          style={{ display: "none" }}
           className="a-link"
           href="https://drive.google.com/file/d/1vYNOzfJ4PcqiYIzdsFcljqFxSdUTtbfd/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
-          <h4 style={{display: 'none'}} className="nav-text">Resume</h4>
+          <h4 style={{ display: "none" }} className="nav-text">
+            Resume
+          </h4>
         </a>
         <a
           href="https://www.linkedin.com/in/kylejosephswe/"

@@ -7,11 +7,20 @@ function Footer() {
     <div className="footer-flex-internal">
       {pathname === "/" ? (
         <a className="a-link" href="https://kylejosephswe.com">
-          <h4 className="footer-text">Work</h4>
+          <h4 className="footer-text">About</h4>
         </a>
       ) : (
         <Link to="/" style={{ textDecoration: "none" }}>
-          <h4 className="footer-text">Work</h4>
+          <h4 className="footer-text">About</h4>
+        </Link>
+      )}
+      {pathname === "/experience" ? (
+        <a className="a-link" href="https://kylejosephswe.com">
+          <h4 className="footer-text">Experience</h4>
+        </a>
+      ) : (
+        <Link to="/experience" style={{ textDecoration: "none" }}>
+          <h4 className="footer-text">Experience</h4>
         </Link>
       )}
       {pathname === "/projects" ? (

@@ -10,6 +10,7 @@ import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import ScrollToTop from "./components/ScrollToTop";
+import Description from "./components/Description";
 
 //Local Images.
 import oldComputer1Gif from "./images/oldComputer1Gif.gif";
@@ -32,11 +33,12 @@ function App() {
         <Routes>
           <Route
             exact
-            path="/"
+            path="/experience"
             element={
               <div>
                 <Navbar />
-                <Intro />
+                {/*<Intro />*/}
+                <h1 className="projects-header">Experience</h1>
                 <Work
                   image={oldComputer4Gif}
                   altImage="gif of old computer 4"
@@ -97,6 +99,39 @@ function App() {
                   skills="Salesforce, Notion, Html, CSS"
                   redirect="https://www.pdx.edu/academic-innovation/"
                 />
+                <Suspense
+                  fallback={<h1 className="fallback-text">Loading...</h1>}
+                >
+                  <Footer />
+                </Suspense>
+              </div>
+            }
+          >
+            {" "}
+          </Route>
+          <Route
+            path="/projects"
+            element={
+              <div>
+                <Navbar />
+                <Projects />
+                <Suspense
+                  fallback={<h1 className="fallback-text">Loading...</h1>}
+                >
+                  <Footer />
+                </Suspense>
+              </div>
+            }
+          >
+            {" "}
+          </Route>
+          <Route
+            path="/"
+            element={
+              <div>
+                <Navbar />
+                <Intro />
+                <Description />
                 <Work
                   image={objectSpinningGif}
                   altImage="Gif of object spinning"
@@ -115,24 +150,7 @@ function App() {
                 </Suspense>
               </div>
             }
-          >
-            {" "}
-          </Route>
-          <Route
-            path="/projects"
-            element={
-              <div>
-                <Projects />
-                <Suspense
-                  fallback={<h1 className="fallback-text">Loading...</h1>}
-                >
-                  <Footer />
-                </Suspense>
-              </div>
-            }
-          >
-            {" "}
-          </Route>
+          ></Route>
         </Routes>
       </div>
     </Router>
