@@ -131,7 +131,7 @@ function App() {
               <div>
                 <Navbar />
                 <Intro />
-                <Description />
+                {/*<Description />*/}
                 <Work
                   image={objectSpinningGif}
                   altImage="Gif of object spinning"
