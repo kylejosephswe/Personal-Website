@@ -44,6 +44,7 @@ function Projects() {
         skills="TypeScript, React, Router, Context API, Firebase, CSS, Git"
         redirect="https://sneaker-gallery.web.app/"
       />
+      {/*
       <Work
         image={pokemon}
         altImage="Pokedex"
@@ -53,6 +54,7 @@ function Projects() {
         skills="React, JavaScript, PokéAPI, Context API, Firebase, CSS, Git"
         redirect="https://national-pokedex.web.app/"
       />
+    */}
       <Work
         image={Keshi}
         altImage="Keshi"

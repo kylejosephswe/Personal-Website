@@ -45,7 +45,7 @@ function App() {
                   jobTitle="Software Engineer Intern"
                   companyName="Siemens"
                   companyDate="May 2024 to August 2024"
-                  workDesc="Team TBD"
+                  workDesc="Power Grid Software Team"
                   /*skills="Skills TBD"*/
                   redirect="https://www.siemens.com/global/en/products/energy/grid-software.html#"
                 />
