@@ -46,7 +46,7 @@ function App() {
                   companyName="Siemens"
                   companyDate="May 2024 to August 2024"
                   workDesc="Power Grid Software Team"
-                  /*skills="Skills TBD"*/
+                  skills="Python, PHP, Html, Linux, REST API, Jira"
                   redirect="https://www.siemens.com/global/en/products/energy/grid-software.html#"
                 />
                 <Work
