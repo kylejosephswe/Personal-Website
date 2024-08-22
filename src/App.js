@@ -40,6 +40,16 @@ function App() {
                 {/*<Intro />*/}
                 <h1 className="projects-header">Experience</h1>
                 <Work
+                  image={cdPlayerGif}
+                  altImage="gif of the cd player"
+                  jobTitle="Software Build Engineer"
+                  companyName="Siemens EDA"
+                  companyDate="August 2024 to Present"
+                  workDesc="Builds Team"
+                  skills="TBD"
+                  redirect="https://eda.sw.siemens.com/en-US/ic/calibre-design/circuit-verification/xact-3d/"
+                />
+                <Work
                   image={oldComputer4Gif}
                   altImage="gif of old computer 4"
                   jobTitle="Software Engineer Intern"
@@ -48,16 +58,6 @@ function App() {
                   workDesc="Power Grid Software Team"
                   skills="Python, PHP, Html, Linux, REST API, Jira"
                   redirect="https://www.siemens.com/global/en/products/energy/grid-software.html#"
-                />
-                <Work
-                  image={cdPlayerGif}
-                  altImage="gif of the cd player"
-                  jobTitle="Software Engineer (University Capstone)"
-                  companyName="Lang2Views"
-                  companyDate="Jan 2024 to May 2024"
-                  workDesc="Frontend Development Team"
-                  skills="React, JavaScript, Jest, Bootstrap, CSS, Jira"
-                  redirect="https://www.lang2views.com/"
                 />
                 <Work
                   image={oldComputer2Gif}
@@ -137,7 +137,7 @@ function App() {
                   altImage="Gif of object spinning"
                   jobTitle="Computer Science Major"
                   companyName="Portland State University"
-                  /*companyDate="Expected March 2025"*/
+                  companyDate="Sep 2019 - Aug 2024"
                   /*workDesc="Concentration in Software Engineering"*/
                   skills="Web Development, Operating Systems, Systems Programming, Data Structures & Algorithms, Software Engineering"
                   redirect="https://www.pdx.edu/"
