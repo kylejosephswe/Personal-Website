@@ -45,8 +45,8 @@ function App() {
                   jobTitle="Software Build Engineer"
                   companyName="Siemens EDA"
                   companyDate="August 2024 to Present"
-                  workDesc="Builds Team"
-                  skills="TBD"
+                  workDesc="Build and CI/CD Team"
+                  skills="Python, C++, Bash, Linux, QT, Git, GitLab, CI/CD, REST API, Jira "
                   redirect="https://eda.sw.siemens.com/en-US/ic/calibre-design/circuit-verification/xact-3d/"
                 />
                 <Work
