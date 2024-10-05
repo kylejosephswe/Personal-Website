@@ -25,12 +25,22 @@ function Experience() {
         jobTitle="Software Build Engineer"
         companyName="Siemens EDA"
         companyDate="August 2024 to Present"
-        workDesc="Build and CI/CD Team"
+        workDesc="Infrastructure Team"
         skills="Python, C++, Bash, Linux, QT, Git, GitLab, CI/CD, REST API, Jira "
         redirect="https://eda.sw.siemens.com/en-US/ic/calibre-design/circuit-verification/xact-3d/"
       />
       <Work
-        image={oldComputer4Gif}
+        image={oldComputer1Gif}
+        altImage="gif of the fifth old computer"
+        jobTitle="Freelance Software Engineer"
+        companyName="Trini Cravings"
+        companyDate="July 2023 to July 2024"
+        workDesc="Lead Developer"
+        skills="JavaScript, React, CSS, Firebase, Git"
+        /*redirect=""*/
+      />
+      <Work
+        image={oldComputer3Gif}
         altImage="gif of old computer 4"
         jobTitle="Software Engineer Intern"
         companyName="Siemens"
@@ -45,22 +55,12 @@ function Experience() {
         jobTitle="Software Engineer Intern"
         companyName="Siemens EDA"
         companyDate="Apr 2023 to Sep 2023"
-        workDesc="Siemens Calibre R&D Team"
+        workDesc="R&D Team"
         skills="Python, Bash, C++, Linux, Git, Jira, Agile, MS Office"
         redirect="https://eda.sw.siemens.com/en-US/ic/calibre-design/circuit-verification/xact-3d/"
       />
       <Work
         image={oldComputer5Gif}
-        altImage="gif of the fifth old computer"
-        jobTitle="Freelance Web Developer"
-        companyName="Trini Cravings"
-        companyDate="July 2023 to Present"
-        /*workDesc=""*/
-        skills="JavaScript, React, CSS, Firebase, Git"
-        /*redirect=""*/
-      />
-      <Work
-        image={oldComputer1Gif}
         altImage="gif of the first old computer"
         jobTitle="Frontend Engineer"
         companyName="SunnySide"
@@ -68,16 +68,6 @@ function Experience() {
         workDesc="App Development Team"
         skills="JavaScript, TypeScript, React, React Native, CSS, Git, Android Studio"
         redirect="https://www.sunnyside.care/"
-      />
-      <Work
-        image={oldComputer3Gif}
-        altImage="gif of the third old computer"
-        jobTitle="IT Consultant"
-        companyName="PSU Office of Academic Innovation"
-        companyDate="Oct 2021 to Jan 2023"
-        workDesc="Canvas Migration Team"
-        skills="Salesforce, Notion, Html, CSS"
-        redirect="https://www.pdx.edu/academic-innovation/"
       />
       <Suspense fallback={<h1 className="fallback-text">Loading...</h1>}>
         <Footer />
