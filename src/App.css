@@ -439,6 +439,10 @@ textarea[type="text"] {
     width: 1.2rem;
   }
 
+  .resume {
+    display: none;
+  }
+
   /* INTRO */
 
   .intro-flex {

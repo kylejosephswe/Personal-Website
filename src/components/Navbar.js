@@ -71,12 +71,12 @@ function Navbar() {
           )}
         </Link>
         <a
-          className="a-link"
+          className="a-link resume"
           href="https://drive.google.com/file/d/1L7Gjj1lTa1cMDUvVkYbMs6x3pwgDje1T/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
-          <h4 className="nav-text">Resume</h4>
+          <h4 className="nav-text resume">Resume</h4>
         </a>
         <a
           href="https://www.linkedin.com/in/kylejosephswe/"
