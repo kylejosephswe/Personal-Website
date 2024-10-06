@@ -43,11 +43,14 @@ function Footer() {
         <h4 className="footer-text">Projects</h4>
       </Link>
   */}
-      {/*
-      <a className="a-link" href="https://drive.google.com/file/d/1IRvmLMtJ6YIaPvniz6yF2maYkQgjyfwl/view?usp=share_link" target="_blank" rel="noreferrer">
-        <h4 className="footer-text">Resume</h4>
+      <a
+        className="a-link resume"
+        href="https://drive.google.com/file/d/1L7Gjj1lTa1cMDUvVkYbMs6x3pwgDje1T/view?usp=sharing"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <h4 className="footer-text resume">Resume</h4>
       </a>
-      */}
       <a
         href="https://www.linkedin.com/in/kylejosephswe/"
         target="_blank"
