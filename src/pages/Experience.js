@@ -1,5 +1,5 @@
 //Import React Libraries.
-import React, { lazy, Suspense } from "react";
+import React, { Suspense } from "react";
 
 //Import Local Components.
 import Navbar from "../components/Navbar";
@@ -10,7 +10,7 @@ import Footer from "../components/Footer";
 import oldComputer1Gif from "../images/oldComputer1Gif.gif";
 import oldComputer2Gif from "../images/oldComputer2Gif.gif";
 import oldComputer3Gif from "../images/oldComputer3Gif.gif";
-import oldComputer4Gif from "../images/oldComputer4Gif.gif";
+//import oldComputer4Gif from "../images/oldComputer4Gif.gif";
 import oldComputer5Gif from "../images/oldComputer5Gif.gif";
 import cdPlayerGif from "../images/cdPlayerGif.gif";
 
@@ -26,7 +26,7 @@ function Experience() {
         companyName="Siemens EDA"
         companyDate="August 2024 to Present"
         workDesc="Infrastructure Team"
-        skills="Python, C++, Bash, Linux, QT, Git, GitLab, CI/CD, REST API, Jira "
+        skills="Python, C++, Bash, Linux, Qt, Git, GitLab, CI/CD, REST API, Jira"
         redirect="https://eda.sw.siemens.com/en-US/ic/calibre-design/circuit-verification/xact-3d/"
       />
       <Work

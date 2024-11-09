@@ -15,17 +15,6 @@ function Projects() {
   return (
     <div>
       <h1 className="projects-header">Projects</h1>
-      {/*
-      <Work
-        image={animeImage}
-        altImage="Meloverna"
-        jobTitle="Personal Project"
-        companyName="Meloverna (Prototype)"
-        workDesc="Meloverna is a platform for learning language through music"
-        skills="SQL, Python, Flask, JavaScript, React, Jest, CSS, Git"
-        redirect="https://meloverna-d69d4.web.app/"
-      />
-      */}
       <Work
         image={googleImage6}
         altImage="Google AI Hackathon"

@@ -72,7 +72,7 @@ function Navbar() {
         </Link>
         <a
           className="a-link resume"
-          href="https://drive.google.com/file/d/1L7Gjj1lTa1cMDUvVkYbMs6x3pwgDje1T/view?usp=sharing"
+          href="https://drive.google.com/file/d/1WU2dk4hxmKWMkoghaT_TVix0YZuGWU0X/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
