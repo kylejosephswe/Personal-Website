@@ -22,7 +22,7 @@ function Experience() {
       <Work
         image={cdPlayerGif}
         altImage="gif of the cd player"
-        jobTitle="Software Build Engineer"
+        jobTitle="Software Engineer"
         companyName="Siemens EDA"
         companyDate="August 2024 to Present"
         workDesc="Infrastructure Team"
