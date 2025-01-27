@@ -23,7 +23,7 @@ function Experience() {
         image={cdPlayerGif}
         altImage="gif of the cd player"
         jobTitle="Software Engineer"
-        companyName="Siemens EDA"
+        companyName="Siemens"
         companyDate="August 2024 to Present"
         workDesc="Infrastructure Team"
         skills="Python, C++, Bash, Linux, Qt, Git, GitLab, CI/CD, REST API, Jira"

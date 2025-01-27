@@ -1,3 +1,4 @@
+/*
 function Description() {
   return (
     <div className="about-me-description-content">
@@ -15,3 +16,4 @@ function Description() {
 }
 
 export default Description;
+*/
