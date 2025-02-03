@@ -79,6 +79,14 @@ function Navbar() {
           <h4 className="nav-text resume">Resume</h4>
         </a>
         <a
+          className="a-link resume"
+          href="https://beacons.ai/softwarebykyle"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <h4 className="nav-text resume">Content</h4>
+        </a>
+        <a
           href="https://www.linkedin.com/in/kylejosephswe/"
           target="_blank"
           rel="noreferrer"
