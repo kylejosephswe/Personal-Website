@@ -5,10 +5,7 @@ function Intro() {
         <h1 className="intro-name">Kyle Joseph</h1>
         <h1 className="intro-career-title">Software Engineer</h1>
         <h4 className="intro-description">
-          At Siemens, I specialize in streamlining build pipelines and
-          automating releases. My goal is to enhance the development process by
-          ensuring that every release is reliable, repeatable, and ready for
-          production.
+        Experienced in C++ and Python, specializing in building high-performance applications, GUIs, and optimizing Git engineering workflows.
         </h4>
       </div>
       <img
